@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    hello 
   </React.StrictMode>
 );
 
@@ -17,3 +17,28 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+let users = [{
+  name: 'Dmitry',
+  adress: {
+    country: 'Belarus',
+    city: 'Minsk',
+    street: 'Gorodeckaya',
+    house: 13
+  },
+  age: 32
+},
+{
+  name: 'Svetlana',
+  adress: {
+    country: 'Belarus',
+    city: 'Minsk',
+    street: 'Ujnaya',
+    house: 18
+  },
+  age: 23
+}
+]
+
+console.log(users[0].name)
