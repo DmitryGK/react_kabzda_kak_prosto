@@ -45,13 +45,26 @@ function Accordion() {
   console.log('Accordion rendering')
   return (
     <div>
-      <h3>Menu</h3>
-      <ul>
+      <AccordionTitle/>
+      <AccordinBody/>
+    </div>
+  )
+}
+
+function AccordionTitle() {
+  console.log('AccordionTitle rendering')
+  return (
+    <h3>Menu</h3>
+  )
+}
+function AccordinBody() {
+  console.log('AccordionBody rendering')
+  return (
+    <ul>
         <li>1</li>
         <li>2</li>
         <li>3</li>
-      </ul>
-    </div>
+    </ul>
   )
 }
 
